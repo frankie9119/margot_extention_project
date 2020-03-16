@@ -1,0 +1,37 @@
+.footerContainer{
+	text-align: center;
+    height: 250px;
+    background-color: orange;
+    color: white;
+
+
+    clear: both;
+    position: relative;
+   
+    margin-top: -200px;
+}
+.footerContent, .footerColor{
+	background-color: #282c34;
+	color: white;
+}
+.margot{
+	font-family: 'Satisfy', cursive;
+	font-size: 25px;
+}
+.followText{
+	color: #282c34;
+}
+.social_footer {
+    width: 100%;
+    font-size: 34px;
+}
+.external_links_footer {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.external_links_footer:hover {
+    color: #282c34;
+    transition: all 0.8s ease;
+}

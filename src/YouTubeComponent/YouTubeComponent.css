@@ -1,0 +1,27 @@
+.YouTubeComponent{
+	background-color: #282c34;
+  height: 100%;
+  width: 100%;
+
+  text-align: center;
+  
+margin: 0 auto;
+    clear: both;
+    position: relative;
+   padding-top:50px;
+   padding-bottom: 50px;
+    margin-top: -200px;
+
+}
+.video{
+  text-align: center;
+  height: 390px;
+  width: 640px;
+}
+@media screen and (max-width: 6400px) {
+.video{
+  text-align: center;
+  height: 195px;
+  width: 320px;
+}
+}
