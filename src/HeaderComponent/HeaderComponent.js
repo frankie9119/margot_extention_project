@@ -16,7 +16,7 @@ const HeaderComponent= (props) => {
           </p>
           </div>
           <div className="margotHeadImg">
-          <img src={props.logo} className="App-logo" alt="logo" />
+          <img src={props.margotHeadImage} className="App-logo" alt="logo" />
           </div>
         </div>
 

@@ -18,7 +18,7 @@ margin: 0 auto;
   height: 390px;
   width: 640px;
 }
-@media screen and (max-width: 6400px) {
+@media screen and (max-width: 640px) {
 .video{
   text-align: center;
   height: 195px;

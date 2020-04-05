@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Footer.css';
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
+import { Link } from "react-router-dom";
 
 
 const Footer = (props) => {
@@ -44,9 +45,9 @@ const Footer = (props) => {
       <MDBContainer className="mt-5 mb-4 text-center text-md-left">
         <MDBRow className="mt-3">
           <MDBCol md="3" lg="4" xl="3" className="mb-4">
-            <h6 className="font-weight-bold margot">
+            <Link to="/" style={{ color: '#FFF' }}><h6 className="font-weight-bold margot">
               <strong>Margot Soria</strong>
-            </h6>
+            </h6></Link>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
 Margot Soria propose des cours de chant, en partenariat avec le studio Wacked, niveaux débutant / intermédiaire, dans leurs studios d’enregistrements, à Châtelet les Halles.
@@ -58,13 +59,13 @@ Margot Soria propose des cours de chant, en partenariat avec le studio Wacked, n
             </h6>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
-              <a href="#!">Coaching</a>
+              <Link to="/CoachingComponent"><a href="#!">Coaching</a></Link>
             </p>
             <p>
-              <a href="#!">Chanteuse</a>
+              <Link to="/ChanteuseComponent"><a href="#!">Chanteuse</a></Link>
             </p>
             <p>
-              <a href="#!">BrandFlow</a>
+              <Link to="/ContactComponent"><a href="#!">Contact</a></Link>
             </p>
 
           </MDBCol>

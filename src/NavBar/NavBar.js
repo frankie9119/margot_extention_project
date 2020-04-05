@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import bars from './bars-solid.svg';
 import './NavBar.css';
 
+import { Link } from "react-router-dom";
+
 
 
 class NavBar extends Component {
@@ -87,16 +89,16 @@ class NavBar extends Component {
                                 position: this.state.scrollingLock ? "fixed" : "relative",
                                 backgroundcolor: this.state.scrollingLock ? "orange" : "pink",
                             }}>       
-
-                        <div className='left'>
-                            Margot Soria
+                          <div className='left'>
+                             <Link to="/" style={{ color: '#FFF' }}><p>Margot Soria </p></Link>
                            
                     </div>
 
                         <div className='right'>
-                            <a href="" title="linsNav" target="_blank" className="linsNav">Coaching</a>
-                            <a href="" title="linsNav" target="_blank" className="linsNav">Chanteuse</a>
-                            <a href="" title="linsNav" target="_blank" className="linsNav">Contact</a>
+                            <Link to="/CoachingComponent"><a href="" title="linsNav" target="_blank" className="linsNav">Coaching</a></Link>
+                            <Link to="/ChanteuseComponent"><a href="" title="linsNav" target="_blank" className="linsNav">Chanteuse</a></Link>
+                            <Link to="/ContactContainer"><a href="" title="linsNav" target="_blank" className="linsNav">Contact</a></Link>
+                            
                         </div>
                         <div className={icon_hamburger} onClick={this.setToggleTopMenuClass}>
                             <div class="hamburger-box">

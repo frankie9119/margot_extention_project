@@ -26,12 +26,11 @@
 }
 
 .margotSignature{
-	font-family: 'Satisfy', cursive;
+	font-family: 'Playfair Display', serif;
 	font-size: 100px;
 	margin-bottom: -10px;
-	  background: -webkit-linear-gradient(#A5720D, #A08282);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	  color: #CAA45D;
+
 }
 .margotBelowSignature{
 	font-family: 'PT Sans Caption', sans-serif;

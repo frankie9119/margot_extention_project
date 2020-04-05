@@ -1,0 +1,38 @@
+.ChanteuseComponent{
+	
+	margin:auto;
+	background-color: ;
+}
+.cardChanteuse{
+	color: black;
+}
+.coachImg{
+	max-width: 600px;
+	max-height: 400px;
+	padding-bottom: 10px;
+}
+.coachImgContainer{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	align-items: center;
+	text-align: center;
+	margin:auto;
+}
+.coachVideo1{
+	text-align: center;
+	margin:auto;
+
+}
+
+.video2{
+  text-align: center;
+  height: 290px;
+  width: 440px;
+}
+@media screen and (max-width: 640px) {
+.video2{
+  text-align: center;
+  height: 195px;
+  width: 320px;
+}
+}

@@ -1,3 +1,7 @@
+.cardsComponent{
+  padding-top: 30px;
+  padding-bottom: 300px;
+}
 .test{
   background-color: red;
 }
@@ -12,7 +16,7 @@
   margin-bottom: 200px;
   align-items: center;
 }
-/* buttons */
+/* buttons 
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -64,8 +68,8 @@ button:hover::before, button:hover::after{
 }
 button:hover span::before, button:hover span::after{
   height: 100%;
-}
-/*----- button 1 -----*/
+}*/
+/*----- button 1 -----
 .btn-1{
   color: white;
   font-size: bold;
@@ -100,6 +104,7 @@ button:hover span::before, button:hover span::after{
 .btn-1:hover span::before, .btn-1:hover span::after{
   transition-delay: 0.2s;
 }
+*/
 /* Cards */
 .card-column {
   width: 50%;
@@ -124,6 +129,7 @@ button:hover span::before, button:hover span::after{
   position: relative;
   color: #fff;
   margin-bottom: 60px;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .border {
@@ -151,18 +157,19 @@ button:hover span::before, button:hover span::after{
 }
 
 .card-color-0 {
-  background:linear-gradient(-135deg, #5D6D7E,#282c34);
+  background:linear-gradient(-135deg, #CAA45D,#282c34);
 }
 
 .card-color-1 {
-  background: linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+  background:linear-gradient(-135deg, #CAA45D,#282c34);
+  /*background: linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);*/
 }
 .card-color-2 {
-      background:
+  background:linear-gradient(-135deg, #CAA45D,#282c34);
+      /*background:
         linear-gradient(red, transparent),
         linear-gradient(to top left, gold, transparent),
-        linear-gradient(to top right, blue, transparent);
-  
+        linear-gradient(to top right, blue, transparent);*/
 }
 
 
@@ -177,6 +184,25 @@ button:hover span::before, button:hover span::after{
 /* 
 ** Media Queries
 */
+@media screen and (max-width: 1200px) {
+.column-1{
+  padding-top: 200px;
+}
+.column-2{
+  padding-top: 0px;
+}
+}
+@media screen and (max-width: 995px) {
+.column-0{
+  padding-top: 50px;
+}
+.column-1{
+  padding-top: 0px;
+}
+.column-2{
+  padding-top: 0px;
+}
+}
 
 @media screen and (max-width: 600px) {
   .card-column {

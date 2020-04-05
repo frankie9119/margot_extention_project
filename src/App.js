@@ -1,25 +1,40 @@
 import React from 'react';
-import logo from './img/margotHeadPhoto2.png';
 import './App.css';
-import NavBar from './NavBar/NavBar';
-import HeaderComponent from './HeaderComponent/HeaderComponent';
-import CardsComponent from './CardsComponent/CardsComponent';
-import margotImgCard1 from './CardsComponent/imgCardsComponent/margotCard1.jpg';
-import margotImgCard2 from './CardsComponent/imgCardsComponent/margotCard2.jpg';
-import Footer from './Footer/Footer';
-import YouTubeComponent from './YouTubeComponent/YouTubeComponent';
+
+import MainComponent from './MainComponent/MainComponent';
+import CoachingComponent from './CoachingComponent/CoachingComponent';
+import ChanteuseComponent from './ChanteuseComponent/ChanteuseComponent';
+import ContactComponent from './ContactComponent/ContactComponent';
+
+
+
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link,
+  Redirect
+} from "react-router-dom";
+
+import ScrollToTopRoute from './ScrollToTopRoute';
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+     <ScrollToTopRoute exact path="/" component={MainComponent} />
+     <ScrollToTopRoute exact path="/CoachingComponent" component={CoachingComponent} />
+     <ScrollToTopRoute exact path="/ChanteuseComponent" component={ChanteuseComponent} />
+     <ScrollToTopRoute exact path="/ContactComponent" component={ContactComponent} />
+     
+    {/*
       <NavBar/>
       <HeaderComponent logo={logo}/>
       <CardsComponent margotImgCard1={margotImgCard1} margotImgCard2={margotImgCard2}/>
       <YouTubeComponent/>
       <Footer/>
-      {/*<CardComponentTest margotImgCard1={margotImgCard1}/>
-      <Footer/>*/}
-    </div>
+      */}
+    </Router>
   );
 }
 

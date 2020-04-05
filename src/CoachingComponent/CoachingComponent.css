@@ -1,0 +1,58 @@
+.coachingCards{
+	padding-top: 50px;
+
+}
+.coaching{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin: auto;
+	background-color: #282c34;
+}
+.coachingContent{
+	background-color: ;
+	text-align: center;
+	margin: auto;
+	padding-top: 100px
+
+}
+.margotCoachingImg{
+	height: 600px;
+	width: 400px;
+}
+.coachingDescription{
+	padding-top: 30px;
+	margin: auto;
+	text-align: center;
+	background-color: ;
+	text-align: justify;
+	width: 300px;
+}
+.chanteuseCards{
+	padding-top: 80px;
+	color: black;
+}
+.card{
+	color: black;
+	
+}
+.priceTable{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin:auto;
+	width: 600px;
+}
+.pTarifs{
+	font-size: 30px;
+	font:bold;
+}
+@media screen and (max-width: 640px) {
+.priceTable{
+
+	width: 300px;
+}
+.margotCoachingImg{
+	height: 400px;
+	width: 300px;
+}
+}
