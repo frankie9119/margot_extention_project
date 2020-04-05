@@ -2,19 +2,6 @@
 .testBackColor{
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hamburger {
     padding: 10px;
     position: absolute;
@@ -272,7 +259,7 @@
 }
 
 .linsNav:hover{
-    color: orange;
+    color: #CAA45D;
     transition: all 0.8s ease;
 }
 /* Media query */
@@ -305,7 +292,7 @@
     }
 
     .top-menu.toggled>.left {
-        border-bottom: 1px solid black;
+        /*border-bottom: 1px solid black;*/
         
     }
 

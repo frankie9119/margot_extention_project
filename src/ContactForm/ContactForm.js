@@ -4,6 +4,7 @@ import * as emailjs from 'emailjs-com';
 import { Button, FormFeedback, Form, FormGroup, Label, Input } from 'reactstrap';
 
 import SimpleReactValidator from 'simple-react-validator';
+import Grid from "@material-ui/core/Grid";
 
 class ContactForm extends React.Component {
   state = {
@@ -50,6 +51,7 @@ render() {
       
         <div className="ContactForm">
           <h1 className="p-heading1">Get in Touch</h1>
+          <Grid className="center aligned">
           <Form onSubmit={this.handleSubmit.bind(this)}>
             <FormGroup controlId="formBasicEmail">
               <Label className="text-muted">Email address</Label>
@@ -91,6 +93,7 @@ render() {
               Submit
             </Button>
           </Form>
+          </Grid>
         </div>
       
     )

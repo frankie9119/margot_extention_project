@@ -15,6 +15,10 @@ const ContactComponent = () => {
 return (
   <div className="ContactComponent">
     <NavBar/>
+        	<div className="coaching">
+    		<h1 className="margotSignature">Margot Soria</h1>
+    		<h2 className="margotBelowSignature">Contat</h2>
+    	</div>
     <ContactForm/>
     <Footer/>
    </div>

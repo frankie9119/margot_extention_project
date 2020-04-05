@@ -97,7 +97,7 @@ class NavBar extends Component {
                         <div className='right'>
                             <Link to="/CoachingComponent"><a href="" title="linsNav" target="_blank" className="linsNav">Coaching</a></Link>
                             <Link to="/ChanteuseComponent"><a href="" title="linsNav" target="_blank" className="linsNav">Chanteuse</a></Link>
-                            <Link to="/ContactContainer"><a href="" title="linsNav" target="_blank" className="linsNav">Contact</a></Link>
+                            <Link to="/ContactComponent"><a href="" title="linsNav" target="_blank" className="linsNav">Contact</a></Link>
                             
                         </div>
                         <div className={icon_hamburger} onClick={this.setToggleTopMenuClass}>

@@ -1,10 +1,10 @@
-/*users.jsx*/
+
 import React from "react";
 import './CoachingComponent.css';
 
 import margotCoachingImg from '../img/MargotCoaching.jpg';
 
-import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol, MDBContainer,MDBRow,MDBFooter, MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
+import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol, MDBContainer, MDBRow, MDBFooter, MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
 
 import { Link } from "react-router-dom";
 import NavBar from '../NavBar/NavBar';
@@ -12,17 +12,8 @@ import Footer from '../Footer/Footer';
 
 
 const CoachingComponent = () => {
-  return (
-
-    	
-
-
-
-
-
-
-
-<div className="CoachingComponent">
+    return (
+        <div className="CoachingComponent">
       <NavBar/>
       <div className="coaching">
         <h1 className="margotSignature">Margot Soria</h1>
@@ -142,7 +133,7 @@ Cours à la carte, allant de la session ponctuelle au cours hebdomadaire.
 
       <Footer/>
     </div>
-  );
+    );
 };
 
 export default CoachingComponent;
