@@ -87,10 +87,9 @@ class NavBar extends Component {
                                 width: "100%", 
                                 top:0, 
                                 position: this.state.scrollingLock ? "fixed" : "relative",
-                                backgroundcolor: this.state.scrollingLock ? "orange" : "pink",
                             }}>       
                           <div className='left'>
-                             <Link to="/" style={{ color: '#FFF' }}><p>Margot Soria </p></Link>
+                             <Link className='margotLinkNav' to="/">Margot Soria </Link>
                            
                     </div>
 
@@ -100,6 +99,12 @@ class NavBar extends Component {
                             <Link to="/ContactComponent"><a href="" title="linsNav" target="_blank" className="linsNav">Contact</a></Link>
                             
                         </div>
+                <div className="social_footer social_navbar">
+                    <a className="external_links_footer" id="youtube" rel="youtube" href="https://www.youtube.com/channel/UCwXBMbJ9gtmZiyWtt1zpO0w" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a className="external_links_footer" id="instagram" rel="instagram" href="https://www.instagram.com/margotsoriart/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a className="external_links_footer" id="facebook" rel="facebook" href="https://www.facebook.com/margot.soria.5" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a className="external_links_footer email" id="email" rel="email" title="email" data-email="" href="mailto:"><i class="far fa-envelope"></i></a>
+                 </div> 
                         <div className={icon_hamburger} onClick={this.setToggleTopMenuClass}>
                             <div class="hamburger-box">
                                 <div class="hamburger-inner"></div>

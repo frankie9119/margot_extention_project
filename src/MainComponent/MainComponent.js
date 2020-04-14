@@ -18,13 +18,11 @@ import Fade from 'react-reveal/Fade';
 const MainComponent = () => {
   return (
     <div className="App">
-      <NavBar/>
-      <HeaderComponent margotHeadImage={margotHeadImage}/>
-      <Fade bottom>
-      <CardsComponent margotImgCard1={margotImgCard1} margotImgCard2={margotImgCard2}/>
-      </Fade>
-      <YouTubeComponent/>
-      <Footer/>
+      <NavBar />
+      <HeaderComponent margotHeadImage={margotHeadImage} />
+      <CardsComponent margotImgCard1={margotImgCard1} margotImgCard2={margotImgCard2} />
+      <YouTubeComponent />
+      <Footer />
 
 
 

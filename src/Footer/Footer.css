@@ -14,9 +14,24 @@
 	background-color: #282c34;
 	color: white;
 }
+.margotFooter{
+    color: #FFF;
+}
+.margotFooter:hover{
+    color: #CAA45D;
+    transition: all 0.8s ease;  
+}
 .margot{
 	font-family: 'Playfair Display', serif;
 	font-size: 25px;
+}
+.linksClass{
+    color: #FFF;
+    font-weight: bold;
+}
+.linksClass:hover{
+    color: #CAA45D;
+    transition: all 0.8s ease;
 }
 .followText{
 	color: #282c34;

@@ -45,7 +45,7 @@ const Footer = (props) => {
       <MDBContainer className="mt-5 mb-4 text-center text-md-left">
         <MDBRow className="mt-3">
           <MDBCol md="3" lg="4" xl="3" className="mb-4">
-            <Link to="/" style={{ color: '#FFF' }}><h6 className="font-weight-bold margot">
+            <Link to="/" className="margotFooter"><h6 className="font-weight-bold margot">
               <strong>Margot Soria</strong>
             </h6></Link>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
@@ -59,13 +59,13 @@ Margot Soria propose des cours de chant, en partenariat avec le studio Wacked, n
             </h6>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
-              <Link to="/CoachingComponent"><a href="#!">Coaching</a></Link>
+              <Link className="linksClass" to="/CoachingComponent">Coaching</Link>
             </p>
             <p>
-              <Link to="/ChanteuseComponent"><a href="#!">Chanteuse</a></Link>
+              <Link className="linksClass" to="/ChanteuseComponent">Chanteuse</Link>
             </p>
             <p>
-              <Link to="/ContactComponent"><a href="#!">Contact</a></Link>
+              <Link className="linksClass" to="/ContactComponent">Contact</Link>
             </p>
 
           </MDBCol>

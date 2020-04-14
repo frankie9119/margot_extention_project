@@ -5,16 +5,15 @@
 .hamburger {
     padding: 10px;
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
     display: none;
     display: none;
-    cursor: pointer;
+    
     transition-property: opacity, filter;
     transition-duration: 0.15s;
     transition-timing-function: linear;
     font: inherit;
-    
     text-transform: none;
     background-color: transparent;
     border: 0;
@@ -206,6 +205,7 @@
 
 .top-menu>.right {
     float: right;
+    margin-top: 10px;
 }
 
 .top-menu>.right>* {
@@ -230,25 +230,26 @@
 }
 
 .top-menu *:hover {
-    cursor: pointer;
+    
 
 }
 
 .clear-fix {
     clear: both;
 }
-
-/*
-  * LINKEDIN & GIT - NAV-BAR
-*/
 .left{
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.margotLinkNav{
     font-family: 'Playfair Display', serif;
     color: white;
     font-weight: bold;
     font-size: 30px;
-    margin-top: 0px;
-    margin-bottom: -10px;
-    margin-left: 100px;
+}
+.margotLinkNav:hover{
+    color: #CAA45D;
+    transition: all 0.8s ease; 
 }
 .linsNav{
     color: white;
@@ -261,6 +262,9 @@
 .linsNav:hover{
     color: #CAA45D;
     transition: all 0.8s ease;
+}
+.social_navbar{
+    display: none;
 }
 /* Media query */
 @media screen and (max-width: 920px) {
@@ -303,7 +307,7 @@
         margin: auto;
 
     }
-    .linsNav:hover{
+    .linsNav:hover,.margotLinkNav:hover{
     color: #282c34;
     transition: all 0.8s ease;
 }
